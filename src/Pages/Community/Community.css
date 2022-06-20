@@ -1,0 +1,118 @@
+/* Default css */
+.section-container {
+  background-color: #f3f3f3;
+}
+
+/* communtity section */
+.community-container {
+  background-image: url(`../../../../assets/images//Rectangle-shape.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  min-height: 50vh;
+}
+
+.question-container {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.avatar {
+  vertical-align: middle;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+}
+
+form {
+  position: relative;
+}
+.half-width {
+  width: 50%;
+}
+
+form img {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  border: none;
+  outline: none;
+}
+
+.input-bottom {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgba(184, 178, 178, 0.123);
+  padding: 0.3rem 5px;
+  font-size: 1.2rem;
+}
+
+/* Refer CSS  */
+.refer-container {
+  background-image: url(`../../../../assets/images//Rectangle-shape.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  min-height: 50vh;
+}
+.container-box {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-top: -120px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* Bolog css */
+.blog-container {
+  background-image: url("https://i.ibb.co/sRK8xMM/Vector-4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  min-height: 100vh;
+}
+.blogs {
+  margin-top: -380px;
+}
+
+@media screen and (max-width: 960px) {
+  .half-width {
+    width: 75%;
+  }
+  .question-container {
+    flex-direction: column;
+  }
+  .container-box {
+    width: 70%;
+    flex-direction: column-reverse;
+  }
+  .blogs {
+    margin-top: -240px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .half-width {
+    width: 100%;
+  }
+  .container-box {
+    width: 90%;
+    flex-direction: column-reverse;
+  }
+  .blogs {
+    margin-top: -300px;
+  }
+  .stories {
+    margin-top: 30px;
+  }
+}

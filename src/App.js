@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./Pages/Header/Header";
+import "bootstrap/dist/css/bootstrap.min.css";
+import CommunityQA from "./Pages/Community/CommunityQA";
+import UpdateApp from "./Pages/UpdateApp/UpdateApp";
+import Refer from "./Pages/Refer/Refer";
+import Community from "./Pages/Community/Community";
+import Blogs from "./Pages/Blogs/Blogs";
+import ShowBlog from "./Pages/Blogs/ShowBlog";
+import Stories from "./Pages/Stories/Stories";
+import ShowStories from "./Pages/Stories/ShowStories";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Blogs />
+      <ShowBlog />
+      <Stories />
+      <ShowStories />
+      <CommunityQA />
+      <Community />
+      <UpdateApp />
+      <Refer />
     </div>
   );
 }
