@@ -1,0 +1,74 @@
+.carousel-bg {
+  background-image: url("https://i.ibb.co/Tk6R2rx/pexels-kelvin-octa-1973270-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.box-container {
+  background-image: url("https://i.ibb.co/TRC52CX/Rectangle-94.png");
+  background-repeat: no-repeat;
+  background-position: -3% 80%;
+}
+.box-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.box {
+  background-color: #c4c4c4;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banifit-box {
+  background-color: #d3c6f9;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -9px;
+  left: -60px;
+}
+.box-position {
+  position: absolute;
+  top: -35px;
+  left: -35px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 960px) {
+  .box-container {
+    background-image: none;
+  }
+
+  .box-content h4 {
+    font-size: 14px;
+  }
+  .for-hide {
+    display: none;
+  }
+  .banifit-container {
+    background-image: url("https://i.ibb.co/dJ0CMxM/pexels-daniel-reche-1556706-1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+}
+@media screen and (max-width: 768px) {
+  .box-content {
+    flex-direction: column;
+  }
+  .box-content h4 {
+    font-size: 14px;
+  }
+  .for-hide {
+    display: none;
+  }
+}

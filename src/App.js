@@ -9,19 +9,21 @@ import Blogs from "./Pages/Blogs/Blogs";
 import ShowBlog from "./Pages/Blogs/ShowBlog";
 import Stories from "./Pages/Stories/Stories";
 import ShowStories from "./Pages/Stories/ShowStories";
+import Home from "./Pages/Home/Home";
 
 function App() {
   return (
     <div>
       <Header />
-      <Blogs />
+      <Home />
+      {/* <Blogs />
       <ShowBlog />
       <Stories />
       <ShowStories />
       <CommunityQA />
       <Community />
       <UpdateApp />
-      <Refer />
+      <Refer /> */}
     </div>
   );
 }
