@@ -309,25 +309,49 @@ const Home = () => {
           <div className="row mx-0">
             <div className="col-6 col-md-3">
               <div className="d-flex flex-column justify-content-between align-items-center">
-                <img src="https://i.ibb.co/6tm3HQG/3-2.png" alt="" />
+                <div className="w-100">
+                  <img
+                    className="w-100"
+                    src="https://i.ibb.co/6tm3HQG/3-2.png"
+                    alt=""
+                  />
+                </div>
                 <h4>Baby Shop</h4>
               </div>
             </div>
             <div className="col-6 col-md-3">
               <div className="d-flex flex-column justify-content-between align-items-center">
-                <img src="https://i.ibb.co/ZY1CQnV/3-1.png" alt="" />
+                <div className="w-100">
+                  <img
+                    className="w-100"
+                    src="https://i.ibb.co/ZY1CQnV/3-1.png"
+                    alt=""
+                  />
+                </div>
                 <h4>Baby Shop</h4>
               </div>
             </div>
             <div className="col-6 col-md-3">
               <div className="d-flex flex-column justify-content-between align-items-center">
-                <img src="https://i.ibb.co/KDbRJ9p/2-3.png" alt="" />
+                <div className="w-100">
+                  <img
+                    className="w-100"
+                    src="https://i.ibb.co/KDbRJ9p/2-3.png"
+                    alt=""
+                  />
+                </div>
                 <h4>Baby Shop</h4>
               </div>
             </div>
             <div className="col-6 col-md-3">
               <div className="d-flex flex-column justify-content-between align-items-center">
-                <img src="https://i.ibb.co/MhhDXcj/1-9.png" alt="" />
+                <div className="w-100">
+                  <img
+                    className="w-100"
+                    src="https://i.ibb.co/MhhDXcj/1-9.png"
+                    alt=""
+                  />
+                </div>
                 <h4>Baby Shop</h4>
               </div>
             </div>
