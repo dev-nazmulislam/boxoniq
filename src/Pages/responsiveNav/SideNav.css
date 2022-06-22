@@ -1,0 +1,15 @@
+nav a {
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: black;
+  text-decoration: none;
+}
+.nav-hide {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-hide {
+    display: flex;
+  }
+}

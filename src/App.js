@@ -10,12 +10,14 @@ import ShowBlog from "./Pages/Blogs/ShowBlog";
 import Stories from "./Pages/Stories/Stories";
 import ShowStories from "./Pages/Stories/ShowStories";
 import Home from "./Pages/Home/Home";
+import SideNav from "./Pages/responsiveNav/SideNav";
 
 function App() {
   return (
     <div>
       <Header />
       <Home />
+      <SideNav />
       {/* <Blogs />
       <ShowBlog />
       <Stories />
