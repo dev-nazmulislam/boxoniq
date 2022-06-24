@@ -14,10 +14,10 @@ import SideNav from "./Pages/responsiveNav/SideNav";
 
 function App() {
   return (
-    <div>
+    <div style={{ backgroundColor: "#F3F3F3" }}>
       <Header />
       <Home />
-      <SideNav />
+      {/* <SideNav /> */}
       {/* <Blogs />
       <ShowBlog />
       <Stories />

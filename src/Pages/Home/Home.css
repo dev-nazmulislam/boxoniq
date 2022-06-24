@@ -1,74 +1,573 @@
-.carousel-bg {
+/* Carousel css start */
+.carousel-container {
   background-image: url("https://i.ibb.co/Tk6R2rx/pexels-kelvin-octa-1973270-2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: right;
+  margin: 12px 65px;
+  border-radius: 23px;
 }
+
+.carusel-text {
+  padding-left: 124px;
+  padding-top: 90px;
+  padding-bottom: 150px;
+}
+.carusel-text h1 {
+  font-weight: 700;
+  font-size: 72px;
+}
+.carusel-text h2 {
+  font-weight: 700;
+  font-size: 50px;
+}
+/* Box css start */
 .box-container {
+  width: 100%;
+  margin: 40px auto;
+  border-radius: 24px;
+  padding: 50px 34px;
+  background-color: white;
   background-image: url("https://i.ibb.co/TRC52CX/Rectangle-94.png");
   background-repeat: no-repeat;
-  background-position: -3% 80%;
-}
-.box-content {
+  background-position: -1% 120%;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.box-container h1 {
+  font-size: 30px;
+}
+.box-container h4 {
+  font-size: 18px;
+}
+.box-container span {
+  color: white;
+}
+
+.box-middle-container {
+  width: 100%;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .box {
   background-color: #c4c4c4;
-  width: 100px;
-  height: 100px;
+  width: 88px;
+  height: 88px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.box img {
+  width: 43px;
+  height: 43px;
+}
+.box-container button {
+  display: block;
+  padding: 23px 30px;
+  font-weight: 800;
+  font-size: 20px;
+  color: white;
+  width: 100%;
+  margin: 0 auto;
+}
 
+/* Banifit css start header */
+.bundle-container {
+  margin: 12px 65px;
+  border-radius: 23px;
+}
+.bundle-container h1 {
+  font-size: 24px;
+}
+.banifit-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shape {
+  width: 388px;
+  height: 98px;
+  border-radius: 24px;
+  background-color: white;
+  margin: 45px 125px;
+  position: relative;
+}
+.shape h5 {
+  font-size: 24px;
+  margin: 18px 46px;
+}
 .banifit-box {
   background-color: #d3c6f9;
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: -9px;
-  left: -60px;
+  top: -20px;
+  left: -110px;
 }
-.box-position {
-  position: absolute;
-  top: -35px;
-  left: -35px;
-  overflow: hidden;
+.banifit-right {
+  width: 85%;
+  background-color: white;
+  padding: 50px;
+  box-shadow: 53px 53px 0px #09a42b;
+}
+.banifit-right h1 {
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.banifit-right p {
+  margin-bottom: 23px;
+  font-size: 14px;
+  font-weight: 800;
+}
+.banifit-right button {
+  border: 2px solid black;
+  background-color: white;
+  padding: 20px 71px;
+  font-size: 18px;
+  font-weight: 800;
+  border-radius: 7px;
+  display: block;
+  margin: 0 auto;
+}
+/* Brand Container */
+.brand-container {
+  background-color: white;
+  border-radius: 24px;
+  margin: 65px;
+  padding: 65px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.brand-container h1 {
+  font-size: 24px;
+  font-weight: 800;
+}
+.why-chose-container {
+  padding: 33px 60px;
+  margin: 65px;
+  background-color: white;
+  border-radius: 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.why-chose-container h1 {
+  font-size: 24px;
+  font-weight: 800;
+  text-shadow: 5px 5px 3px rgb(189, 189, 189);
+  margin: 30px 0px;
+}
+.why-chose-container p {
+  font-size: 18px;
+  font-weight: 400;
+  text-shadow: 5px 5px 3px rgb(189, 189, 189);
+}
+.chose-contnent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.contact-section {
+  padding: 46px 28px;
+  margin: 65px;
+  background-color: #09a42b;
+  border-radius: 24px;
+  background-image: url("https://i.ibb.co/6vmH37d/cute-baby-going-their-first-steps-23-2149318238-1.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contact-section h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+.contact-section p {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+.input-text {
+  width: 40%;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: white;
+  padding: 13px;
+}
+.input-submit {
+  width: 20%;
+  font-size: 18px;
+  font-weight: 800;
+  background-color: white;
+  padding: 13px;
+  margin-left: 23px;
+}
+.shop-container {
+  padding: 33px 60px;
+  margin: 65px;
+  background-color: white;
+  border-radius: 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.shop-container h1 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 30px 0px;
+}
+.shop-container p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.shop-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shop-content img {
+  border-radius: 50%;
+}
+.shop-content h2 {
+  font-size: 24px;
+  font-weight: 700;
 }
 
-@media screen and (max-width: 960px) {
-  .box-container {
-    background-image: none;
+@media screen and (max-width: 768px) {
+  .carousel-container {
+    margin: 17px;
+    border-radius: 20px;
+  }
+  .carusel-text {
+    padding-top: 27px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+  }
+  .carusel-text h1 {
+    font-weight: 800;
+    font-size: 19px;
+  }
+  .carusel-text h2 {
+    font-weight: 800;
+    font-size: 19px;
   }
 
-  .box-content h4 {
+  .box-container {
+    flex-direction: column;
+    background-image: none;
+    border-radius: 20px;
+    padding: 17px 27px;
+  }
+  .box-container span {
+    color: black;
+  }
+  .box-container h1 {
     font-size: 14px;
   }
-  .for-hide {
-    display: none;
+  .box-container h4 {
+    font-size: 14px;
+  }
+  .box {
+    background-color: #e9e9e9;
+    width: 79px;
+    height: 79px;
+  }
+  .box-container button {
+    font-size: 12px;
+  }
+  /* banifit section */
+  .bundle-container {
+    margin: 12px 20px;
+    border-radius: 23px;
+  }
+  .bundle-container h1 {
+    font-size: 14px;
   }
   .banifit-container {
     background-image: url("https://i.ibb.co/dJ0CMxM/pexels-daniel-reche-1556706-1.png");
     background-repeat: no-repeat;
     background-position: right;
   }
-}
-@media screen and (max-width: 768px) {
-  .box-content {
-    flex-direction: column;
+  .shape {
+    width: 218px;
+    height: 76px;
+    border-radius: 24px;
+    margin: 34px 6px 34px 38px;
   }
-  .box-content h4 {
+  .shape h5 {
+    font-size: 12px;
+    margin: 6px 60px;
+  }
+  .banifit-box {
+    width: 94px;
+    height: 94px;
+    top: -10px;
+    left: -24px;
+  }
+  .banifit-right {
+    display: none;
+  }
+  /* Brand section css */
+  .brand-container {
+    background-color: #f3f3f3;
+    margin: 30px;
+    padding: 10px;
+    box-shadow: none;
+  }
+  .container-img {
+    width: 94px;
+    height: 42px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  }
+  .brand-container h1 {
     font-size: 14px;
   }
-  .for-hide {
+  /* Cose section */
+  .why-chose-container {
+    background-color: #f3f3f3;
+    margin: 30px;
+    padding: 10px;
+    box-shadow: none;
+  }
+  .why-chose-container h1 {
+    font-size: 14px;
+    text-shadow: none;
+  }
+  .why-chose-container p {
+    font-size: 11px;
+    font-weight: 400;
+    text-shadow: none;
+  }
+  .chose-contnent {
+    gap: 10px;
+  }
+  .container-content {
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+  }
+  .container-content p {
+    font-size: 11px;
+  }
+  /* Contact section css */
+  .contact-section {
+    padding: 18px 22px;
+    margin: 25px;
+    border-radius: 7px;
+    background-image: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .contact-section h1 {
+    font-size: 23px;
+  }
+  .contact-section p {
+    font-size: 9px;
+  }
+  .input-text {
+    width: 75%;
+    font-size: 12px;
+    padding: 5px;
+  }
+  .input-submit {
+    width: 20%;
+    font-size: 12px;
+    padding: 5px;
+    margin-left: 5px;
+  }
+  .shop-container {
+    padding: 18px 22px;
+    margin: 25px;
+    background-color: #f3f3f3;
+    box-shadow: none;
+  }
+  .shop-container h1 {
+    font-size: 14px;
+  }
+  .shop-container p {
+    font-size: 9px;
+  }
+  .shop-content img {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+  }
+  .shop-content h2 {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .carousel-container {
+    margin: 17px;
+    border-radius: 20px;
+  }
+  .carusel-text {
+    padding-top: 27px;
+    padding-left: 18px;
+    padding-bottom: 10px;
+  }
+  .carusel-text h1 {
+    font-weight: 800;
+    font-size: 19px;
+  }
+  .carusel-text h2 {
+    font-weight: 800;
+    font-size: 19px;
+  }
+
+  .box-container {
+    flex-direction: column;
+    background-image: none;
+    border-radius: 20px;
+    padding: 17px 27px;
+  }
+  .box-container span {
+    color: black;
+  }
+  .box-container h1 {
+    font-size: 14px;
+  }
+  .box-container h4 {
+    font-size: 14px;
+  }
+  .box {
+    background-color: #e9e9e9;
+    width: 79px;
+    height: 79px;
+  }
+  .box-container button {
+    font-size: 12px;
+  }
+  /* banifit section */
+  .bundle-container {
+    margin: 12px 20px;
+    border-radius: 23px;
+  }
+  .bundle-container h1 {
+    font-size: 14px;
+  }
+  .banifit-container {
+    background-image: url("https://i.ibb.co/dJ0CMxM/pexels-daniel-reche-1556706-1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .shape {
+    width: 218px;
+    height: 76px;
+    border-radius: 24px;
+    margin: 34px 6px 34px 38px;
+  }
+  .shape h5 {
+    font-size: 12px;
+    margin: 6px 60px;
+  }
+  .banifit-box {
+    width: 94px;
+    height: 94px;
+    top: -10px;
+    left: -24px;
+  }
+  .banifit-right {
     display: none;
+  }
+  /* Brand section css */
+  .brand-container {
+    background-color: #f3f3f3;
+    margin: 30px;
+    padding: 10px;
+    box-shadow: none;
+  }
+  .container-img {
+    width: 94px;
+    height: 42px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  }
+  .brand-container h1 {
+    font-size: 14px;
+  }
+  /* Cose section */
+  .why-chose-container {
+    background-color: #f3f3f3;
+    margin: 30px;
+    padding: 10px;
+    box-shadow: none;
+  }
+  .why-chose-container h1 {
+    font-size: 14px;
+    text-shadow: none;
+  }
+  .why-chose-container p {
+    font-size: 11px;
+    font-weight: 400;
+    text-shadow: none;
+  }
+  .chose-contnent {
+    gap: 10px;
+  }
+  .container-content {
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+  }
+  .container-content p {
+    font-size: 11px;
+  }
+  /* Contact section css */
+  .contact-section {
+    padding: 18px 22px;
+    margin: 25px;
+    border-radius: 7px;
+    background-image: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .contact-section h1 {
+    font-size: 23px;
+  }
+  .contact-section p {
+    font-size: 9px;
+  }
+  .input-text {
+    width: 75%;
+    font-size: 12px;
+    padding: 5px;
+  }
+  .input-submit {
+    width: 20%;
+    font-size: 12px;
+    padding: 5px;
+    margin-left: 5px;
+  }
+  .shop-container {
+    padding: 18px 22px;
+    margin: 25px;
+    background-color: #f3f3f3;
+    box-shadow: none;
+  }
+  .shop-container h1 {
+    font-size: 14px;
+  }
+  .shop-container p {
+    font-size: 9px;
+  }
+  .shop-content img {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+  }
+  .shop-content h2 {
+    font-size: 9px;
   }
 }
