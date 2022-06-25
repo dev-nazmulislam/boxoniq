@@ -1,3 +1,39 @@
+/* shaired css */
+.title {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.105em;
+}
+.short-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+.contact-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: 0.105em;
+  color: #ffffff;
+}
+.contact-short-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.105em;
+  color: #ffffff;
+}
+.shop-container img {
+  border-radius: 50%;
+}
+.link {
+  text-decoration: none;
+  color: #000;
+}
+.section-show {
+  display: none;
+}
 /* Carousel css start */
 .carousel-container {
   background-image: url("https://i.ibb.co/Tk6R2rx/pexels-kelvin-octa-1973270-2.png");
@@ -21,13 +57,13 @@
   font-weight: 700;
   font-size: 50px;
 }
+
 /* Box css start */
 .box-container {
-  width: 100%;
-  margin: 40px auto;
+  background: #ffffff;
   border-radius: 24px;
-  padding: 50px 34px;
-  background-color: white;
+  margin: 40px auto;
+  padding: 50px 32px;
   background-image: url("https://i.ibb.co/TRC52CX/Rectangle-94.png");
   background-repeat: no-repeat;
   background-position: -1% 120%;
@@ -35,14 +71,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 100px;
+  gap: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.box-container h1 {
-  font-size: 30px;
-}
-.box-container h4 {
-  font-size: 18px;
 }
 .box-container span {
   color: white;
@@ -64,8 +94,7 @@
   align-items: center;
 }
 .box img {
-  width: 43px;
-  height: 43px;
+  border-radius: 50%;
 }
 .box-container button {
   display: block;
@@ -82,17 +111,12 @@
   margin: 12px 65px;
   border-radius: 23px;
 }
-.bundle-container h1 {
-  font-size: 24px;
-}
 .banifit-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .shape {
-  width: 388px;
-  height: 98px;
   border-radius: 24px;
   background-color: white;
   margin: 45px 125px;
@@ -104,8 +128,7 @@
 }
 .banifit-box {
   background-color: #d3c6f9;
-  width: 140px;
-  height: 140px;
+  padding: 30px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -149,10 +172,7 @@
   padding: 65px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.brand-container h1 {
-  font-size: 24px;
-  font-weight: 800;
-}
+
 .why-chose-container {
   padding: 33px 60px;
   margin: 65px;
@@ -160,17 +180,7 @@
   border-radius: 24px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.why-chose-container h1 {
-  font-size: 24px;
-  font-weight: 800;
-  text-shadow: 5px 5px 3px rgb(189, 189, 189);
-  margin: 30px 0px;
-}
-.why-chose-container p {
-  font-size: 18px;
-  font-weight: 400;
-  text-shadow: 5px 5px 3px rgb(189, 189, 189);
-}
+
 .chose-contnent {
   display: flex;
   justify-content: space-between;
@@ -186,16 +196,6 @@
   background-repeat: no-repeat;
   background-position: right;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.contact-section h1 {
-  font-size: 30px;
-  font-weight: 700;
-  color: white;
-}
-.contact-section p {
-  font-size: 20px;
-  font-weight: 700;
-  color: white;
 }
 .input-text {
   width: 40%;
@@ -219,25 +219,8 @@
   border-radius: 24px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.shop-container h1 {
-  font-size: 24px;
-  font-weight: 800;
-  margin-top: 30px 0px;
-}
-.shop-container p {
-  font-size: 18px;
-  font-weight: 400;
-}
-.shop-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.shop-content img {
-  border-radius: 50%;
-}
-.shop-content h2 {
+.shop-block-title {
+  color: black;
   font-size: 24px;
   font-weight: 700;
 }
@@ -289,27 +272,22 @@
     margin: 12px 20px;
     border-radius: 23px;
   }
-  .bundle-container h1 {
-    font-size: 14px;
-  }
+
   .banifit-container {
     background-image: url("https://i.ibb.co/dJ0CMxM/pexels-daniel-reche-1556706-1.png");
     background-repeat: no-repeat;
     background-position: right;
   }
   .shape {
-    width: 218px;
-    height: 76px;
-    border-radius: 24px;
-    margin: 34px 6px 34px 38px;
+    border-radius: 20px;
+    margin: 34px 6px 34px 10;
   }
   .shape h5 {
     font-size: 12px;
     margin: 6px 60px;
   }
   .banifit-box {
-    width: 94px;
-    height: 94px;
+    padding: 10%;
     top: -10px;
     left: -24px;
   }
@@ -324,15 +302,11 @@
     box-shadow: none;
   }
   .container-img {
-    width: 94px;
-    height: 42px;
     background: #ffffff;
     border-radius: 5px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   }
-  .brand-container h1 {
-    font-size: 14px;
-  }
+
   /* Cose section */
   .why-chose-container {
     background-color: #f3f3f3;
@@ -405,9 +379,26 @@
   .shop-content h2 {
     font-size: 9px;
   }
+  .section-hide {
+    display: none;
+  }
+  .section-show {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 428px) {
+  .title {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.105em;
+  }
+  .short-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
   .carousel-container {
     margin: 17px;
     border-radius: 20px;
@@ -463,14 +454,12 @@
     background-position: right;
   }
   .shape {
-    width: 218px;
-    height: 76px;
-    border-radius: 24px;
-    margin: 34px 6px 34px 38px;
+    border-radius: 20px;
+    margin: 34px 6px 15px 5px;
   }
   .shape h5 {
     font-size: 12px;
-    margin: 6px 60px;
+    margin: 6px 50px;
   }
   .banifit-box {
     width: 94px;
@@ -489,15 +478,11 @@
     box-shadow: none;
   }
   .container-img {
-    width: 94px;
-    height: 42px;
     background: #ffffff;
     border-radius: 5px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   }
-  .brand-container h1 {
-    font-size: 14px;
-  }
+
   /* Cose section */
   .why-chose-container {
     background-color: #f3f3f3;
@@ -505,15 +490,7 @@
     padding: 10px;
     box-shadow: none;
   }
-  .why-chose-container h1 {
-    font-size: 14px;
-    text-shadow: none;
-  }
-  .why-chose-container p {
-    font-size: 11px;
-    font-weight: 400;
-    text-shadow: none;
-  }
+
   .chose-contnent {
     gap: 10px;
   }
@@ -522,9 +499,7 @@
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
   }
-  .container-content p {
-    font-size: 11px;
-  }
+
   /* Contact section css */
   .contact-section {
     padding: 18px 22px;
@@ -533,12 +508,7 @@
     background-image: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
-  .contact-section h1 {
-    font-size: 23px;
-  }
-  .contact-section p {
-    font-size: 9px;
-  }
+
   .input-text {
     width: 75%;
     font-size: 12px;
@@ -556,18 +526,11 @@
     background-color: #f3f3f3;
     box-shadow: none;
   }
-  .shop-container h1 {
-    font-size: 14px;
+
+  .section-hide {
+    display: none;
   }
-  .shop-container p {
-    font-size: 9px;
-  }
-  .shop-content img {
-    width: 68px;
-    height: 68px;
-    border-radius: 50%;
-  }
-  .shop-content h2 {
-    font-size: 9px;
+  .section-show {
+    display: block;
   }
 }

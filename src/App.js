@@ -11,14 +11,16 @@ import Stories from "./Pages/Stories/Stories";
 import ShowStories from "./Pages/Stories/ShowStories";
 import Home from "./Pages/Home/Home";
 import SideNav from "./Pages/responsiveNav/SideNav";
+import Practice from "./Pages/Home/Practice";
 
 function App() {
   return (
     <div style={{ backgroundColor: "#F3F3F3" }}>
       <Header />
       <Home />
-      {/* <SideNav /> */}
-      {/* <Blogs />
+      {/* <Practice /> */}
+      {/* <SideNav />
+       <Blogs />
       <ShowBlog />
       <Stories />
       <ShowStories />
