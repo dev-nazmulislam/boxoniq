@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
 
@@ -24,26 +24,25 @@ const Home = () => {
               <h1>Start</h1>
               <h2>your</h2>
               <h2>Bundle</h2>
-              <h2>
-                Now <img src="https://i.ibb.co/HrXYz5D/Arrow-2.png" alt="" />
-              </h2>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div className="carusel-text">
-              <h1 className="fw-bold">Start</h1>
-              <h3 className="fw-bold">your</h3>
-              <h3 className="fw-bold">Bundle</h3>
-              <h3 className="fw-bold">Now</h3>
+              <h2 className="carusel-button me-2">Now</h2>
               <img src="https://i.ibb.co/HrXYz5D/Arrow-2.png" alt="" />
             </div>
           </div>
           <div class="carousel-item">
             <div className="carusel-text">
-              <h1 className="fw-bold">Start</h1>
-              <h3 className="fw-bold">your</h3>
-              <h3 className="fw-bold">Bundle</h3>
-              <h3 className="fw-bold">Now</h3>
+              <h1>Start</h1>
+              <h2>your</h2>
+              <h2>Bundle</h2>
+              <h2 className="carusel-button me-2">Now</h2>
+              <img src="https://i.ibb.co/HrXYz5D/Arrow-2.png" alt="" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div className="carusel-text">
+              <h1>Start</h1>
+              <h2>your</h2>
+              <h2>Bundle</h2>
+              <h2 className="carusel-button me-2">Now</h2>
               <img src="https://i.ibb.co/HrXYz5D/Arrow-2.png" alt="" />
             </div>
           </div>
@@ -52,40 +51,42 @@ const Home = () => {
 
       {/* Box area start */}
       <section className="box-container">
-        <div className="w-100 title">
-          <h1>
-            <span>HOW</span> IT WORKS
-          </h1>
-        </div>
-        <div className="box-middle-container w-100">
-          <div className="d-flex flex-column justify-content-between align-items-center">
-            <div className="box">
-              <img src="https://i.ibb.co/WHvPPfX/sync-1.png" alt="" />
-            </div>
-            <h4 className="short-title">Create Box</h4>
+        <div className="row mx-0 justify-content-between align-items-center">
+          <div className="col-12 col-md-3">
+            <h1 className="title">
+              <span>HOW</span> IT WORKS
+            </h1>
           </div>
-          <div className="d-flex flex-column justify-content-center align-items-center">
-            <div className="box">
-              <img src="https://i.ibb.co/ccPBqKR/wallet-2-1.png" alt="" />
+          <div className="col-12 d-flex flex-row justify-content-between align-items-center col-md-4">
+            <div className="d-flex flex-column justify-content-between align-items-center">
+              <div className="box">
+                <img src="https://i.ibb.co/WHvPPfX/sync-1.png" alt="" />
+              </div>
+              <h4 className="short-title">Create Box</h4>
             </div>
-            <h4 className="short-title">Create Box</h4>
-          </div>
-          <div className="d-flex flex-column justify-content-center align-items-center">
-            <div className="box">
-              <img src="https://i.ibb.co/BVy8YyT/package-1-1.png" alt="" />
+            <div className="d-flex flex-column justify-content-center align-items-center">
+              <div className="box">
+                <img src="https://i.ibb.co/ccPBqKR/wallet-2-1.png" alt="" />
+              </div>
+              <h4 className="short-title">Create Box</h4>
             </div>
-            <h4 className="short-title">Create Box</h4>
+            <div className="d-flex flex-column justify-content-center align-items-center">
+              <div className="box">
+                <img src="https://i.ibb.co/BVy8YyT/package-1-1.png" alt="" />
+              </div>
+              <h4 className="short-title">Create Box</h4>
+            </div>
           </div>
-        </div>
-        <div className="w-100">
-          <button style={{ backgroundColor: "#09A42B" }}>
-            Start Your Bundle
-            <img
-              className="ms-2"
-              src="https://i.ibb.co/HrXYz5D/Arrow-2.png"
-              alt=""
-            />
-          </button>
+          <div className="col-12 col-md-4">
+            <button style={{ backgroundColor: "#09A42B" }}>
+              Start Your Bundle
+              <img
+                className="ms-4 d-none d-md-inline"
+                src="https://i.ibb.co/GkmjLYb/Arrow-1.png"
+                alt=""
+              />
+            </button>
+          </div>
         </div>
       </section>
 
@@ -113,7 +114,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-6 section-hide">
+          <div className="col-12 col-md-6 d-none d-md-block">
             <div className="banifit-right">
               <h1>Bundle Benefits</h1>
               <p>
@@ -138,9 +139,9 @@ const Home = () => {
               </button>
             </div>
           </div>
-          <div className="col-4 col-md-6 section-show">
+          <div className="col-4 col-md-6 d-block d-md-none">
             <img
-              className="w-100 h-100"
+              className="w-100"
               src="https://i.ibb.co/dJ0CMxM/pexels-daniel-reche-1556706-1.png"
               alt=""
             />
@@ -179,16 +180,16 @@ const Home = () => {
             }}
             navigation={true}
             modules={[Autoplay, Pagination, Navigation]}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
           >
             <SwiperSlide>
               <div className="container-img">
-                <img
-                  className="w-100"
-                  src="https://i.ibb.co/6F74mC8/Cetaphil-old-1.png"
-                  alt=""
-                />
+                <a href="">
+                  <img
+                    className="w-100"
+                    src="https://i.ibb.co/6F74mC8/Cetaphil-old-1.png"
+                    alt=""
+                  />
+                </a>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -345,6 +346,18 @@ const Home = () => {
             <div className="container-img">
               <img
                 className="w-100"
+                src="https://i.ibb.co/PGvC1pW/image-2.png"
+                alt=""
+              />
+              <p className="short-title">
+                Bundlers get amazing bang for their bang
+              </p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="container-img">
+              <img
+                className="w-100"
                 src="https://i.ibb.co/02rTJH2/image-1.png"
                 alt=""
               />
@@ -382,12 +395,12 @@ const Home = () => {
 
       {/* Shop section */}
       <section class="shop-container">
-        <h2 class="title mb-4">SHOP BY CATEGORY</h2>
+        <h2 class="title mb-3">SHOP BY CATEGORY</h2>
         <p className="short-title">
           Skip modify your bundle as per requirement
         </p>
         <div class="shop-block-container">
-          <div class="row mx-0">
+          <div class="row mx-0 justify-content-between align-items-center">
             <div class="col-6 col-sm-4 col-lg-2">
               <a className="link" href="shop">
                 <img
@@ -395,7 +408,7 @@ const Home = () => {
                   src="https://i.ibb.co/6tm3HQG/3-2.png"
                   alt=""
                 />
-                <h3 class="shop-block-title">Baby Shop</h3>
+                <h3 class="title text-center my-2">Baby Shop</h3>
               </a>
             </div>
             <div class="col-6 col-sm-4 col-lg-2">
@@ -405,7 +418,7 @@ const Home = () => {
                   src="https://i.ibb.co/ZY1CQnV/3-1.png"
                   alt=""
                 />
-                <h3 class="shop-block-title">Baby Shop</h3>
+                <h3 class="title text-center my-2">Baby Shop</h3>
               </a>
             </div>
             <div class="col-6 col-sm-4 col-lg-2">
@@ -415,7 +428,7 @@ const Home = () => {
                   src="https://i.ibb.co/KDbRJ9p/2-3.png"
                   alt=""
                 />
-                <h3 class="shop-block-title">Baby Shop</h3>
+                <h3 class="title text-center my-2">Baby Shop</h3>
               </a>
             </div>
             <div class="col-6 col-sm-4 col-lg-2">
@@ -425,7 +438,7 @@ const Home = () => {
                   src="https://i.ibb.co/MhhDXcj/1-9.png"
                   alt=""
                 />
-                <h3 class="shop-block-title">Baby Shop</h3>
+                <h3 class="title text-center my-2">Baby Shop</h3>
               </a>
             </div>
             <div class="col-6 col-sm-4 col-lg-2">
@@ -435,7 +448,7 @@ const Home = () => {
                   src="https://i.ibb.co/6tm3HQG/3-2.png"
                   alt=""
                 />
-                <h3 class="shop-block-title">Baby Shop</h3>
+                <h3 class="title text-center my-2">Baby Shop</h3>
               </a>
             </div>
             <div class="col-6 col-sm-4 col-lg-2">
@@ -445,7 +458,7 @@ const Home = () => {
                   src="https://i.ibb.co/6tm3HQG/3-2.png"
                   alt=""
                 />
-                <h3 class="shop-block-title">Baby Shop</h3>
+                <h3 class="title text-center my-2">Baby Shop</h3>
               </a>
             </div>
           </div>
