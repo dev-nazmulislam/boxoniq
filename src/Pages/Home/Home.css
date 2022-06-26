@@ -65,10 +65,20 @@
   border-radius: 24px;
   margin: 40px auto;
   padding: 50px 32px;
-  background-image: url("https://i.ibb.co/TRC52CX/Rectangle-94.png");
-  background-repeat: no-repeat;
-  background-position: -1% 120%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.box-left {
+  position: relative;
+  z-index: 1;
+}
+.block-arrow {
+  display: inline-block;
+}
+.box-position {
+  position: absolute;
+  top: -70px;
+  left: -32px;
+  z-index: -1;
 }
 .box-container span {
   color: white;
@@ -114,9 +124,12 @@
   border-radius: 8px 36px 36px 8px;
   position: relative;
 }
-.shape h5 {
+.shape-title {
   font-size: 24px;
   margin: 18px 46px;
+}
+.shape-title p {
+  display: none;
 }
 .banifit-box {
   background-color: #d3c6f9;
@@ -126,7 +139,7 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: -7px;
+  top: -18px;
   left: -98px;
 }
 .banifit-right {
@@ -157,6 +170,12 @@
   border-radius: 7px;
   display: block;
   margin: 0 auto;
+}
+.bundle-right {
+  display: block;
+}
+.bundle-right-img {
+  display: none;
 }
 /* Brand Container */
 .brand-container {
@@ -219,7 +238,7 @@
   font-weight: 700;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .title {
     font-weight: 800;
     font-size: 14px;
@@ -256,7 +275,13 @@
     flex-direction: column;
     background-image: none;
     border-radius: 20px;
-    padding: 17px 27px;
+    padding: 17px 30px;
+  }
+  .box-position {
+    display: none;
+  }
+  .block-arrow {
+    display: none;
   }
   .box-container span {
     color: black;
@@ -277,7 +302,7 @@
   }
   /* banifit section */
   .bundle-container {
-    margin: 12px 20px;
+    margin: 12px 38px;
     border-radius: 23px;
   }
   .bundle-container h1 {
@@ -290,25 +315,45 @@
   }
   .shape {
     border-radius: 8px;
-    margin: 21px -10px 10px 5px;
+    margin: 34px -10px 10px 5px;
+    padding: 6px;
   }
-  .shape h5 {
+  .shape-left {
+    background-image: url("https://i.ibb.co/dJ0CMxM/pexels-daniel-reche-1556706-1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .shape-title {
+    margin: 6px 30px;
+    font-weight: 700;
     font-size: 12px;
-    margin: 6px 33px;
+    line-height: 15px;
+    letter-spacing: 0.105em;
+  }
+  .shape-title p {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    letter-spacing: 0.105em;
   }
   .banifit-box {
     width: 94px;
     height: 94px;
-    top: -10px;
-    left: -24px;
+    top: 2px;
+    left: -38px;
   }
-  .banifit-right {
+  .bundle-right {
     display: none;
+  }
+  .bundle-right-img {
+    display: block;
   }
   /* Brand section css */
   .brand-container {
     background-color: #f3f3f3;
-    margin: 15px;
+    margin: 35px;
     padding: 10px;
     box-shadow: none;
   }
@@ -321,7 +366,7 @@
   /* Cose section */
   .why-chose-container {
     background-color: #f3f3f3;
-    margin: 15px;
+    margin: 35px;
     padding: 10px;
     box-shadow: none;
   }
@@ -334,7 +379,7 @@
   /* Contact section css */
   .contact-section {
     padding: 10px 22px;
-    margin: 15px;
+    margin: 35px;
     border-radius: 7px;
     background-image: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -353,14 +398,8 @@
   }
   .shop-container {
     padding: 10px;
-    margin: 15px;
+    margin: 35px;
     background-color: #f3f3f3;
     box-shadow: none;
-  }
-  .section-hide {
-    display: none;
-  }
-  .section-show {
-    display: block;
   }
 }

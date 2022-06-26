@@ -52,12 +52,17 @@ const Home = () => {
       {/* Box area start */}
       <section className="box-container">
         <div className="row mx-0 justify-content-between align-items-center">
-          <div className="col-12 col-md-3">
-            <h1 className="title">
+          <div className="col-12 col-md-3 box-left">
+            <img
+              className="box-position"
+              src="https://i.ibb.co/TRC52CX/Rectangle-94.png"
+              alt=""
+            />
+            <h1 className="title pt-5">
               <span>HOW</span> IT WORKS
             </h1>
           </div>
-          <div className="col-12 d-flex flex-row justify-content-between align-items-center col-md-4">
+          <div className="col-12 col-md-4 d-flex flex-row justify-content-between align-items-center">
             <div className="d-flex flex-column justify-content-between align-items-center">
               <div className="box">
                 <img src="https://i.ibb.co/WHvPPfX/sync-1.png" alt="" />
@@ -77,11 +82,11 @@ const Home = () => {
               <h4 className="short-title">Create Box</h4>
             </div>
           </div>
-          <div className="col-12 col-md-4">
+          <div className="col-12 col-md-5">
             <button style={{ backgroundColor: "#09A42B" }}>
               Start Your Bundle
               <img
-                className="ms-4 d-none d-md-inline"
+                className="ms-2 block-arrow"
                 src="https://i.ibb.co/GkmjLYb/Arrow-1.png"
                 alt=""
               />
@@ -93,28 +98,44 @@ const Home = () => {
       {/* Bundle banifite area start     */}
       <section className="bundle-container">
         <h1 className="title">BUNDLE BENEFITS</h1>
-        <div className="row mx-0 justify-content-between">
-          <div className="col-8 col-md-6 d-flex flex-column justify-content-center">
+        <div className="row mx-0 justify-content-between shape-left">
+          <div className="col-10 col-md-6 d-flex flex-column justify-content-center">
             <div className="shape shadow">
-              <h5 className="ps-4">Skip subscription anytime anywhere</h5>
+              <div className="shape-title">
+                <h5 className="ps-4">Skip subscription anytime anywhere</h5>
+                <p className="ps-4">
+                  Skip, modify you bundle as per requirement
+                </p>
+              </div>
+
               <div className="banifit-box">
                 <img src="https://i.ibb.co/txNGzgK/check-1.png" alt="" />
               </div>
             </div>
             <div className="shape shadow">
-              <h5 className="ps-4">Skip subscription anytime anywhere</h5>
+              <div className="shape-title">
+                <h5 className="ps-4">Skip subscription anytime anywhere</h5>
+                <p className="ps-4">
+                  Skip, modify you bundle as per requirement
+                </p>
+              </div>
               <div className="banifit-box">
                 <img src="https://i.ibb.co/k52WZ3D/calendar-3-1.png" alt="" />
               </div>
             </div>
             <div className="shape shadow">
-              <h5 className="ps-4">Skip subscription anytime anywhere</h5>
+              <div className="shape-title">
+                <h5 className="ps-4">Skip subscription anytime anywhere</h5>
+                <p className="ps-4">
+                  Skip, modify you bundle as per requirement
+                </p>
+              </div>
               <div className="banifit-box">
                 <img src="https://i.ibb.co/M2JwKGm/time-1.png" alt="" />
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-6 d-none d-md-block">
+          <div className="col-12 col-md-6 bundle-right">
             <div className="banifit-right">
               <h1>Bundle Benefits</h1>
               <p>
@@ -139,13 +160,13 @@ const Home = () => {
               </button>
             </div>
           </div>
-          <div className="col-4 col-md-6 d-block d-md-none">
+          {/* <div className="col-2 col-md-6 bundle-right-img">
             <img
               className="w-100"
               src="https://i.ibb.co/dJ0CMxM/pexels-daniel-reche-1556706-1.png"
               alt=""
             />
-          </div>
+          </div> */}
         </div>
       </section>
 
