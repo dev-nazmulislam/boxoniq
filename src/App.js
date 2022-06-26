@@ -12,12 +12,14 @@ import ShowStories from "./Pages/Stories/ShowStories";
 import Home from "./Pages/Home/Home";
 import SideNav from "./Pages/responsiveNav/SideNav";
 import Practice from "./Pages/Home/Practice";
+import Footer from "./Pages/Footer/Footer";
 
 function App() {
   return (
     <div style={{ backgroundColor: "#F3F3F3" }}>
       <Header />
       <Home />
+      <Footer />
       {/* <Practice /> */}
       {/* <SideNav />
        <Blogs />
