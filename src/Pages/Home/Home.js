@@ -1,12 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
-
-import "swiper/css";
-import "swiper/css/pagination";
 import "./Home.css";
-
-// Import Swiper styles
 import "swiper/css";
 
 const Home = () => {
@@ -25,7 +20,6 @@ const Home = () => {
               <h2>your</h2>
               <h2>Bundle</h2>
               <h2 className="carusel-button me-2">Now</h2>
-              <img src="https://i.ibb.co/HrXYz5D/Arrow-2.png" alt="" />
             </div>
           </div>
           <div class="carousel-item">
@@ -34,7 +28,6 @@ const Home = () => {
               <h2>your</h2>
               <h2>Bundle</h2>
               <h2 className="carusel-button me-2">Now</h2>
-              <img src="https://i.ibb.co/HrXYz5D/Arrow-2.png" alt="" />
             </div>
           </div>
           <div class="carousel-item">
@@ -43,7 +36,6 @@ const Home = () => {
               <h2>your</h2>
               <h2>Bundle</h2>
               <h2 className="carusel-button me-2">Now</h2>
-              <img src="https://i.ibb.co/HrXYz5D/Arrow-2.png" alt="" />
             </div>
           </div>
         </div>
