@@ -14,66 +14,58 @@ const Blogs = () => {
       <div class="row row-cols-1 row-cols-md-2 g-5 blogs">
         <div class="col">
           <div class="blog">
-            <a href="showblog">
-              <img src="https://i.ibb.co/ZGSTYdy/1-10.png" class="" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title link">What is Lorem Ipsum?</h5>
-                <p class="card-text link">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum is simply dummy text of the
-                  printing and typesetting industry. Lorem Ipsum is simply dummy
-                  text of the printing and typesetting industry.
-                </p>
-              </div>
-            </a>
+            <img src="https://i.ibb.co/ZGSTYdy/1-10.png" class="" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title link">What is Lorem Ipsum?</h5>
+              <p class="card-text link">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry.
+              </p>
+            </div>
           </div>
         </div>
         <div class="col">
           <div class="blog">
-            <a href="showblog">
-              <img src="https://i.ibb.co/ZGSTYdy/1-10.png" class="" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title link">What is Lorem Ipsum?</h5>
-                <p class="card-text link">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum is simply dummy text of the
-                  printing and typesetting industry. Lorem Ipsum is simply dummy
-                  text of the printing and typesetting industry.
-                </p>
-              </div>
-            </a>
+            <img src="https://i.ibb.co/ZGSTYdy/1-10.png" class="" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title link">What is Lorem Ipsum?</h5>
+              <p class="card-text link">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry.
+              </p>
+            </div>
           </div>
         </div>
         <div class="col">
           <div class="blog">
-            <a href="showblog">
-              <img src="https://i.ibb.co/ZGSTYdy/1-10.png" class="" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title link">What is Lorem Ipsum?</h5>
-                <p class="card-text link">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum is simply dummy text of the
-                  printing and typesetting industry. Lorem Ipsum is simply dummy
-                  text of the printing and typesetting industry.
-                </p>
-              </div>
-            </a>
+            <img src="https://i.ibb.co/ZGSTYdy/1-10.png" class="" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title link">What is Lorem Ipsum?</h5>
+              <p class="card-text link">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry.
+              </p>
+            </div>
           </div>
         </div>
         <div class="col">
           <div class="blog">
-            <a href="showblog">
-              <img src="https://i.ibb.co/ZGSTYdy/1-10.png" class="" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title link">What is Lorem Ipsum?</h5>
-                <p class="card-text link">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum is simply dummy text of the
-                  printing and typesetting industry. Lorem Ipsum is simply dummy
-                  text of the printing and typesetting industry.
-                </p>
-              </div>
-            </a>
+            <img src="https://i.ibb.co/ZGSTYdy/1-10.png" class="" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title link">What is Lorem Ipsum?</h5>
+              <p class="card-text link">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry.
+              </p>
+            </div>
           </div>
         </div>
       </div>

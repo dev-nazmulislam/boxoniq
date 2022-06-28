@@ -10,6 +10,8 @@ import Stories from "./Pages/Stories/Stories";
 import Home from "./Pages/Home/Home";
 import Footer from "./Pages/Footer/Footer";
 import ShowBlog from "./Pages/Blogs/ShowBlog";
+import CommunityQA from "./Pages/Community/CommunityQA";
+import CommunitAnswer from "./Pages/Community/CommunitAnswer";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route path="/showblog" element={<ShowBlog />} />
         <Route path="/stories" element={<Stories />} />
         <Route path="/community" element={<Community />} />
+        <Route path="/communityqna" element={<CommunityQA />} />
+        <Route path="/answer" element={<CommunitAnswer />} />
         <Route path="/refer" element={<Refer />} />
       </Routes>
       <Footer />

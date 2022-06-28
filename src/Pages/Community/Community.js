@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Community.css";
 
 const Community = () => {
@@ -78,7 +79,9 @@ const Community = () => {
           </div>
         </div>
       </div>
-      <button className="communit-button-btn">Get Started</button>
+      <Link to="/communityqna">
+        <button className="communit-button-btn">Get Started</button>
+      </Link>
     </section>
   );
 };
